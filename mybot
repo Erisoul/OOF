@@ -1,0 +1,24 @@
+
+import discord
+from discord.ext import commands
+
+class Mycog:
+    """My custom cog that does stuff!"""
+
+    def __init__(self, bot):
+        self.bot = bot
+
+    @commands.command()
+    async def mycom(self):
+        """This does stuff!"""
+
+        if message.content.startswith('!oof'):
+        mesg = await client.send_message(message.channel, 'Calculating...')
+        counter = 0
+        async for msg in client.logs_from(message.channel, limit=9999999):
+            if msg.author == Unforgiven#1350:
+                counter += 1
+        await client.edit_message(mesg, '{} has {} oofs .format(msg.author, str(oof))
+
+def setup(bot):
+    bot.add_cog(Mycog(bot))
